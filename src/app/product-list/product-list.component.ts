@@ -11,6 +11,7 @@ export class ProductListComponent {
   products = products;
 
   share() {
+    // TODO: improve the share functionality to do something useful.
     window.alert('The product has been shared!');
   }
 }
